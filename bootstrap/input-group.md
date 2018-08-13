@@ -1,8 +1,9 @@
+<!-- not to html -->
 <!-- TOC START min:1 max:3 link:true update:true -->
   - [flex-grammar](#flex-grammar)
   - [flex-examples](#flex-examples)
-  - [bootstrap4-inputGroup](#bootstrap4-inputgroup)
-  - [bootstrap3-inputGroup](#bootstrap3-inputgroup)
+  - [bootstrap4_input-group](#bootstrap4_input-group)
+  - [bootstrap3_input-group](#bootstrap3_input-group)
   - [solved-by-flexbox_input-add-on](#solved-by-flexbox_input-add-on)
   - [refer to](#refer-to)
 
@@ -57,7 +58,7 @@ flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余�
   }
 ```
 
-## bootstrap4-inputGroup
+## bootstrap4_input-group
 ```html
   <div class="input-group">
     <div class="input-group-prepend">
@@ -86,6 +87,10 @@ flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余�
   $input-btn-padding-x:         .75rem !default;
   $input-height-inner:                    ($font-size-base * $input-btn-line-height) + ($input-btn-padding-y * 2) !default;
   $input-height:                          calc(#{$input-height-inner} + #{$input-height-border}) !default;
+  /*_reboot.scss*/
+  *, *::before, *::after {
+      box-sizing: border-box;
+  }  
   /*_forms.scss*/
   .form-control {
     display: block;
@@ -146,7 +151,8 @@ flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余�
     }
   }
 ```
-## bootstrap3-inputGroup
+[示例](http://jsbin.com/cuciwup/6/edit?html,output)
+## bootstrap3_input-group
 ```html
 <div class="input-group">
   <span class="input-group-addon">$</span>

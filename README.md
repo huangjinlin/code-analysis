@@ -1,4 +1,5 @@
 <!--not to html-->
 # code-analysis
 ## bootstrap
-- [inputGroup](./bootstrap/inputGroup.md)
+- [input-group](./bootstrap/input-group.md)
+- [modal-dialog-centered](./bootstrap/modal-dialog-centered)
